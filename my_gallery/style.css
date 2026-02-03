@@ -1,0 +1,50 @@
+/* 기본 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* 연회색 배경 */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* 갤러리 그리드 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.card {
+    background: #fff;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
