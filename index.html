@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Illustration Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="images/profile.png" alt="프로필 사진" class="profile-img">
+            <div class="profile-text">
+                <h1>낑깡</h1>
+                <p>안녕하세요?</p>
+                <a href="https://share.crack.wrtn.ai/02adl9" target="_blank" class="link-btn">
+            crack </a>
+        <a href="https://zeta-ai.io/@ro_b2?share_id=nolkictl" target="_blank" class="link-btn">
+            zeta
+        </a>
+            </div>
+        </div>
+    </header>
+    <main id="gallery" class="grid-container"></main>
+
+    <div id="modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="full-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
