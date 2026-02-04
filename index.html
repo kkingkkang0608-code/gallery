@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Illustration Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="images/profile.png" alt="프로필 사진" class="profile-img">
+            <div class="profile-text">
+                <h1>낑깡</h1>
+                <p>AI 채팅 제작자</p>
+            </div>
+        </div>
+    </header>
+    <main id="gallery" class="grid-container"></main>
+
+    <div id="modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="full-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
